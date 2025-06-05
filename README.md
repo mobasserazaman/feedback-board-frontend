@@ -1,12 +1,29 @@
-# React + Vite
+# Quick Feedback Board – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend for the **Quick Feedback Board** app, built with **React 19**, using the latest features like `useOptimistic`, `useTransition`, and the `action` prop on `<form>`.
 
-Currently, two official plugins are available:
+## 🧠 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React 19 with Actions API
+- Optimistic UI updates using `useOptimistic`
+- Concurrent transitions with `useTransition`
+- Axios for HTTP requests
+- Vite for fast development
+- Tailwind CSS for styling
 
-## Expanding the ESLint configuration
+## 📦 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- Vite
+- Tailwind CSS
+- Axios
+- JavaScript (ES6+)
+
+## 🛠️ Setup
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
